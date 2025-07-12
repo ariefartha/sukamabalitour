@@ -5,6 +5,7 @@ import { FaVolumeMute, FaVolumeUp } from 'react-icons/fa';
 import TestimonialSection from '../components/TestimonialSection'
 import GallerySection from '../components/GallerySection'
 import WhyChooseUs from "../components/WhyChooseUs";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
     const ref = useRef(null);
@@ -48,7 +49,7 @@ const Homepage = () => {
                         <p className="py-6 text-white text-lg font-heading">
                             Sukama Bali Tour will take you on an adventure by visiting the best waterfalls in Ubud. Experience the magic of waterfalls in Ubud with us.
                         </p>
-                        <a href="/booking-form" className="btn btn-primary">Book your Tour Now</a>
+                        <Link className="btn btn-primary" to={"/booking-form"}>Book your Tour Now</Link>
                     </div>
                 </div>
             </div>
@@ -77,7 +78,8 @@ const Homepage = () => {
                         <p className=" text-justify">
                             Did you know that in our place in ubud located in the heart of bali? stored culture and beautiful scenery, such as rice fields, waterfalls and cultural diversity and tropical beauty of ubud. the village of ubud rich in culture has been a favorite of tourists for years in bali. ubud offers dance culture, museums, traditional shopping opportunities, and culinary culture. "but do you know the best waterfalls and econics scattered around it?
                         </p>
-                        <a href='/tourinfo' className="btn btn-primary">Get More Info</a>
+                        <Link className="btn btn-primary" to={"/tourinfo"}>Get More Info</Link>
+                        
                     </motion.div>
 
                     {/* Kanan: Gambar */}
@@ -129,7 +131,7 @@ const Homepage = () => {
                         <p className="text-gray-600 text-justify">
                             If you want a private driver to explore Bali, please contact us through the form.
                         </p>
-                        <a href="/contact" className="btn btn-primary">Contact Me</a>
+                        <Link className="btn btn-primary" to={"/contact"}>Contact Me</Link>
                     </motion.div>
                 </div>
             </section>

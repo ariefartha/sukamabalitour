@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
           viewport={{ once: true }}
           className="text-3xl font-bold mb-8"
         >
-          Why Choose <span className="text-primary font-title">Sukama Bali Tour?</span>
+          Why Choose <span className=" font-title">Sukama Bali Tour?</span>
         </motion.h2>
 
         <div className="grid md:grid-cols-3 gap-8 ">

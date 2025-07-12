@@ -9,7 +9,7 @@ import BookingForm from './pages/BookingForm'
 
 const App = () => {
   return (
-    <div className='h-screen' data-theme="winter">
+    <div className='h-screen' data-theme="bumblebee">
        <Navbar />
       <Routes>
         <Route path='/' element={<Homepage />} />

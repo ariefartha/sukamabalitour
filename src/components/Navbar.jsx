@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -24,9 +25,9 @@ const Navbar = () => {
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
                     >
-                        <li><a href="/">Homepage</a></li>
-                        <li><a href="/tourinfo">Tour Info & Pricing</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        <Link to={"/"}>Homepage</Link>
+                        <Link to={"/tourinfo"}>Tour Info & Pricing</Link>
+                        <Link to={"/contact"}>Contact</Link>
                     </ul>
                 </div>
 
@@ -38,14 +39,36 @@ const Navbar = () => {
 
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a href="/">Homepage</a></li>
-                    <li><a href="/tourinfo">Tour Info & Pricing</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li>
+                        <Link
+                            to="/"
+                            className="text-black px-4 py-2 rounded hover:bg-primary hover:text-white transition duration-300"
+                        >
+                            Homepage
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="/tourinfo"
+                            className="text-black px-4 py-2 rounded hover:bg-primary hover:text-white transition duration-300"
+                        >
+                            Tour Info & Pricing
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="/contact"
+                            className="text-black px-4 py-2 rounded hover:bg-primary hover:text-white transition duration-300"
+                        >
+                            Contact
+                        </Link>
+                    </li>
                 </ul>
             </div>
 
+
             <div className="navbar-end">
-                <a href="/booking-form" className="btn btn-primary text-white">Book Now</a>
+                <Link to="/booking-form" className="btn btn-primary text-white">Book Now</Link>
             </div>
         </div>
     );
