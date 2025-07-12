@@ -46,7 +46,7 @@ const Homepage = () => {
                     <div className="text-center max-w-md bg-black bg-opacity-70 py-6 px-4 rounded-lg">
                         <h1 className="text-5xl text-white font-bold font-title">Sukama Bali Tour</h1>
                         <p className="py-6 text-white text-lg font-heading">
-                            Sukama Bali Tour will take you on an adventure by visiting the best waterfalls in Ubud. Experience the magic of waterfalls in Ubud with us.
+                            Will take you on an adventure by visiting the best waterfalls in Ubud. Experience the magic of waterfalls in Ubud with us.
                         </p>
                         <a href="/booking-form" className="btn btn-primary">Book your Tour Now</a>
                     </div>
