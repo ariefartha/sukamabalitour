@@ -32,9 +32,9 @@ const Navbar = () => {
                 </div>
 
                 {/* Logo di sisi kiri navbar */}
-                <a href="/" className="btn btn-ghost">
+                <Link to={"/"} className="btn btn-ghost">
                     <img src="/logo3.png" alt="Sukama Bali Tour Logo" className="h-10" />
-                </a>
+                </Link>
             </div>
 
             <div className="navbar-center hidden lg:flex">
