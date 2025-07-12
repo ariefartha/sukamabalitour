@@ -42,7 +42,7 @@ const Navbar = () => {
                     <li>
                         <Link
                             to="/"
-                            className="text-black px-4 py-2 rounded hover:bg-primary hover:text-white transition duration-300"
+                            className="text-black font-semibold px-4 py-2 rounded hover:bg-primary hover:text-white transition duration-300"
                         >
                             Homepage
                         </Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
                     <li>
                         <Link
                             to="/tourinfo"
-                            className="text-black px-4 py-2 rounded hover:bg-primary hover:text-white transition duration-300"
+                            className="text-black font-semibold px-4 py-2 rounded hover:bg-primary hover:text-white transition duration-300"
                         >
                             Tour Info & Pricing
                         </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
                     <li>
                         <Link
                             to="/contact"
-                            className="text-black px-4 py-2 rounded hover:bg-primary hover:text-white transition duration-300"
+                            className="text-black font-semibold px-4 py-2 rounded hover:bg-primary hover:text-white transition duration-300"
                         >
                             Contact
                         </Link>
