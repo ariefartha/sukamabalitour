@@ -1,4 +1,0 @@
-https://sukamabalitour.vercel.app/
-https://sukamabalitour.vercel.app/tourinfo
-https://sukamabalitour.vercel.app/contact
-https://sukamabalitour.vercel.app/booking-form
