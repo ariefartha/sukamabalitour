@@ -13,7 +13,6 @@ const Accordion = () => {
                     <li>Waterproof bag for your things</li>
                     <li>Mineral water</li>
                     <li>Towel for drying</li>
-                    <li>Cold face towels for those hot days</li>
                     <li>Delicious lunch at the waterfall restaurant</li>
                 </div>
             </div>
