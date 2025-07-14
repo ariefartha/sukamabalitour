@@ -26,7 +26,7 @@ const Homepage = () => {
                 <video
                     ref={videoRef}
                     className="absolute top-0 left-0 w-full h-full object-cover"
-                    src="/hero1.mp4"
+                    src="/hero2.mp4"
                     autoPlay
                     muted={isMuted}
                     loop
